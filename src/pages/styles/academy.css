@@ -1,0 +1,27 @@
+.program {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('../assets/dcp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.program-content {
+    width: 60%;
+    color: white;
+}
+
+.cta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/graduate.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-content {
+    width: 60%;
+    color: white;
+}

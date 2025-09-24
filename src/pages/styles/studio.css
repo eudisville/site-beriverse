@@ -1,0 +1,19 @@
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.services-content {
+    width: 60%;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .services-content {
+        width: 100%;
+    }
+}

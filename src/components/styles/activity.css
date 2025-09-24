@@ -1,0 +1,62 @@
+.activity {
+  position: relative;
+  width: 420px;
+  height: 600px;
+  overflow: hidden;
+  box-shadow: none; /* Supprime toute ombre interne */
+  cursor: pointer;
+  background: transparent; /* Evite les effets d'ombre internes liés au fond */
+  display: flex;
+  justify-content: start;
+}
+
+.activity-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  box-shadow: none;
+  background-color: transparent;
+  transition: transform 0.6s ease; /* Smooth animation */
+}
+
+.activity-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: white;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activity-content h2 {
+  margin: 0;
+}
+
+.activity-content p {
+  margin: 10px 0 0;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.activity:hover .activity-background {
+  transform: scale(1.1); /* Zoom */
+}
+
+.activity:hover .activity-content p {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .activity {
+    width: 350px;
+    height: 350px;
+  }
+}
