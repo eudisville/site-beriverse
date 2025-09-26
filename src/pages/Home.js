@@ -28,6 +28,8 @@ function Home() {
           Notre mission, offrir au grand public et aux organisations des services leurs permettant d'accroître
           leurs performances.
         </p>
+
+        <div className="about-img"></div>
       </section>
 
       <section className="activities">
@@ -36,9 +38,23 @@ function Home() {
               <h1>Ce que nous faisons</h1>
             </div>
             <div className='activity-card'>
-              <Activity backgroundImage={img1} title="Technologie" content="Hello" />
-              <Activity backgroundImage={img2} title="Education" content="Hello" />
-              <Activity backgroundImage={img3} title="Audiovisuel" content="Hello  " />
+              <Activity 
+              backgroundImage={img1} 
+              title="Technologie" 
+              content="Nous contribuons activement à la transformation 
+              digitale des organisations et développons des solutions grand public." 
+              />
+
+              <Activity 
+              backgroundImage={img2} 
+              title="Education" 
+              content="Avec Beriverse Academy, notre objectif est démocratiser l'éducation technologique." 
+              />
+
+              <Activity 
+              backgroundImage={img3} 
+              title="Audiovisuel" 
+              content="Parce que l'aspect créatif compte, nous travaillons sur l'aspect artistique de vos projets." />
             </div>
           </div>
         </section>
