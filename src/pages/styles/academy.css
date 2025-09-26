@@ -25,3 +25,14 @@
     width: 60%;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .program, .cta {
+        width: 100%;
+    }
+
+    .program-content, .cta-content {
+        width: 100%;
+        padding: 20px 0;
+    }
+}

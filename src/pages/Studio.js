@@ -11,6 +11,7 @@ function Studio() {
         content="Beriverse Studio est la branche créative de Beriverse qui pour but d'améliorer l'esthétique
         de vos projets" 
         image={img}
+        button= "Nos Services"
       />
 
       <section className='services'>
