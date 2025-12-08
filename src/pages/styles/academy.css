@@ -1,0 +1,81 @@
+.activities {
+    height: auto;
+}
+
+.program {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.program-content {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program-content-text {
+    width: 50%;
+}
+
+.program-content button {
+    background-color: rgb(58, 255, 117);
+    font-weight: bold;
+}
+
+.program-content-image img {
+    width: 400px;
+    margin-right: 80px;
+}
+
+.cta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/graduate.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-content {
+    width: 60%;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .program, .cta {
+        width: 100%;
+    }
+
+    .program {
+        height: auto;
+    }
+
+    .program-content {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .program-content-text {
+        width: 100%;
+    }
+
+    .program-content-image img {
+        margin-right: 0;
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .program-content, .cta-content {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
