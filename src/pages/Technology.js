@@ -20,23 +20,23 @@ function Technology() {
      <section className="cards">
           <div className="card-items">
             <div className="card-text">
-              <h1><span>Cas</span> clients <span>et</span> Guides</h1>
+              <h1><span>Nos</span> services</h1>
             </div>
             <div className='card-card'>
               <Card 
                 backgroundImage={image4}
-                title="La transformation digitale dans le secteur de l'assurance" 
-                content="Explorer comment nous avons aidé cette entreprise dans sa digitalisation."
+                title="Automatisation des processus" 
+                content="Nous analysons vos processus clés pour éliminer les tâches manuelles à faible valeur ajoutée. Grâce à l’automatisation intelligente, nous réduisons les coûts opérationnels, les erreurs et les délais, tout en augmentant la productivité des équipes."
               />
               <Card 
                 backgroundImage={image3}
-                title="L'expérience client 2.0 un levier de votre réussite" 
-                content="Consultez nos conseils pour améliorer le parcours de vos clients." 
+                title="Intégration d'Outils technologiques" 
+                content="Nous intégrons des solutions technologiques adaptées à vos enjeux métiers : logiciels, plateformes, outils collaboratifs et solutions sur mesure. L’objectif est de connecter vos systèmes, fiabiliser vos données et accélérer la prise de décision." 
               />
               <Card 
                 backgroundImage={image2}
-                title="L'impact des données dans la prise de décision" 
-                content="Découvrez comment les données peuvent transformer votre entreprise." 
+                title="Formation & Renforcement des capacités" 
+                content="Nous accompagnons vos équipes dans la montée en compétences digitales et technologiques. Des formations pratiques, orientées résultats, pour assurer une adoption rapide des outils et un impact durable sur la performance globale." 
               />
             </div>
           </div>
