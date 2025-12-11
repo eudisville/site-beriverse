@@ -41,6 +41,22 @@ function Technology() {
             </div>
           </div>
         </section>
+
+        <section className='case'>
+            <div className="case-content">
+              <div className="case-content-text">
+                <h1>L'IA, levier de performance des des entreprises aujourd'hui</h1>
+                <p>Découvrez comme l'IA peut être un game changer pour les organisations dans cette ère de forte concurrence.</p>
+                <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
+                  <button>Télécharger l'étude</button>
+                </a>
+              </div>
+
+              <div className="case-content-image">
+                {/* <img src="demy.jpg" alt="" /> */}
+              </div>
+            </div>
+        </section>
     </div>
   )
 }

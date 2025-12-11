@@ -121,6 +121,38 @@ section p {
     color: white;
 }
 
+.case {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(244, 244, 244);
+    background-size: cover;
+    background-position: center;
+}
+
+.case-content {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.case-content-text {
+    width: 50%;
+}
+
+.case-content button {
+    background-color: #0131C3;
+    font-weight: bold;
+    color: white;
+}
+
+.case-content-image img {
+    width: 400px;
+    margin-right: 80px;
+}
+
 @media (max-width: 600px) {
     section {
         height: auto;

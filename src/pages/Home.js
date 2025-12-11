@@ -21,7 +21,7 @@ function Home() {
 
       <section className='about'>
         <h4>Beriverse Incorporation</h4>
-        <h1><span>Un entreprise</span> Nouvelle Génération</h1>
+        <h1><span>Une entreprise</span> Nouvelle Génération</h1>
         <p>
            Beriverse Incorporation est une société ivoirienne active dans 
             les secteurs de la Technologie, l’Education et l'Audiovisuel.
