@@ -5,6 +5,7 @@ import Academy from './pages/Academy';
 import Studio from './pages/Studio';
 import Careers from './pages/Careers';
 import Footer from "./components/Footer"
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/tech" element={<Technology />} />
         <Route path="/academy" element={<Academy />} />
         <Route path="/studio" element={<Studio />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
 

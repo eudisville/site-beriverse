@@ -30,8 +30,8 @@ function Technology() {
               />
               <Card 
                 backgroundImage={image3}
-                title="Intégration d'Outils technologiques" 
-                content="Nous intégrons des solutions technologiques adaptées à vos enjeux métiers : logiciels, plateformes, outils collaboratifs et solutions sur mesure. L’objectif est de connecter vos systèmes, fiabiliser vos données et accélérer la prise de décision." 
+                title="Développement de logiciels" 
+                content="Nous concevons et développons des solutions logicielles sur mesure, adaptées aux besoins spécifiques de votre entreprise. Que ce soit des applications web, mobiles ou des systèmes d'entreprise, nous utilisons les technologies les plus récentes pour garantir performance, scalabilité et sécurité." 
               />
               <Card 
                 backgroundImage={image2}

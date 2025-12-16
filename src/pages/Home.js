@@ -13,7 +13,7 @@ import img6 from './assets/threee.jpg'
 function Home() {
   return (
     <div>
-      <Header 
+      <Header
         title="Inspirer et Transformer le monde." 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image="cd.jpg" 
@@ -23,7 +23,7 @@ function Home() {
         <h4>Beriverse Incorporation</h4>
         <h1><span>Une entreprise</span> Nouvelle Génération</h1>
         <p>
-           Beriverse Incorporation est une société ivoirienne active dans 
+            Beriverse Incorporation est une société ivoirienne active dans 
             les secteurs de la Technologie, l’Education et l'Audiovisuel.
             Fondée en 2025, la mission de Beriverse est : Permettre à tous d'accroître ses capacités.
         </p>

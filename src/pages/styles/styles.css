@@ -153,6 +153,39 @@ section p {
     margin-right: 80px;
 }
 
+.portfolio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-content {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-content-text {
+    width: 50%;
+}
+
+.portfolio-content button {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.portfolio-content-image img {
+    width: 400px;
+    margin-right: 80px;
+}
+
 @media (max-width: 600px) {
     section {
         height: auto;
@@ -196,5 +229,27 @@ section p {
 
     .join-content {
         width: 100%;
+    }
+
+    .case-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .case-content-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-content {
+        flex-direction: column;
+        text-align: left;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .portfolio-content-text {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }

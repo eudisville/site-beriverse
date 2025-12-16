@@ -29,9 +29,10 @@ function Header({ title, content, image, file }) {
 
         <div className={`links ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <Link to="/">Accueil</Link>
-          <Link to="/tech">for Business</Link>
+          <Link to="/tech">Technology</Link>
           <Link to="/academy">Academy</Link>
           <Link to="/studio">Block Studio</Link>
+          <Link to="/portfolio">Portfolio</Link>
           <Link to="/careers">Jobs</Link>
         </div>
       </nav>
