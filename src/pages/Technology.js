@@ -2,16 +2,19 @@ import React from 'react'
 import Header from '../components/Header'
 import './styles/styles.css'
 import img1 from "./assets/digit.jpg"
-import image2 from "./assets/po.jpg"
+import image2 from "./assets/gemini.png"
 import image3 from "./assets/client.jpg"
 import image4 from "./assets/tics.jpg"
+import image5 from "./assets/exp.png"
+import image6 from "./assets/smart.jpg"
+import image7 from "./assets/woff.jpg"
 import Card from '../components/Card'
 
 function Technology() {
   return (
     <div>
       <Header 
-        title="Reinventez avec nous" 
+        title="Devenez plus performants grâce au numérique" 
         content="Nous aidons les entreprises à se transformer à l'ère du numérique."
         image={img1}
         button="Parcourir nos offres"
@@ -20,23 +23,32 @@ function Technology() {
      <section className="cards">
           <div className="card-items">
             <div className="card-text">
-              <h1><span>Nos</span> services</h1>
+              <h1><span>Nos</span> Expertises</h1>
             </div>
             <div className='card-card'>
               <Card 
                 backgroundImage={image4}
-                title="Automatisation des processus" 
-                content="Nous analysons vos processus clés pour éliminer les tâches manuelles à faible valeur ajoutée. Grâce à l’automatisation intelligente, nous réduisons les coûts opérationnels, les erreurs et les délais, tout en augmentant la productivité des équipes."
+                title="Data & IA" 
               />
               <Card 
                 backgroundImage={image3}
-                title="Développement de logiciels" 
-                content="Nous concevons et développons des solutions logicielles sur mesure, adaptées aux besoins spécifiques de votre entreprise. Que ce soit des applications web, mobiles ou des systèmes d'entreprise, nous utilisons les technologies les plus récentes pour garantir performance, scalabilité et sécurité." 
+                title="Expérience client" 
               />
               <Card 
                 backgroundImage={image2}
-                title="Formation & Renforcement des capacités" 
-                content="Nous accompagnons vos équipes dans la montée en compétences digitales et technologiques. Des formations pratiques, orientées résultats, pour assurer une adoption rapide des outils et un impact durable sur la performance globale." 
+                title="Automatisation"  
+              />
+              <Card 
+                backgroundImage={image6}
+                title="Transformation digitale" 
+              />
+              <Card 
+                backgroundImage={image5}
+                title="Développement de logiciels" 
+              />
+              <Card 
+                backgroundImage={image7}
+                title="Formation & Renforcement des capacités"  
               />
             </div>
           </div>

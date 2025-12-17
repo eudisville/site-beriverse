@@ -8,7 +8,7 @@ const Card = ({ backgroundImage, title, content, backgroundColor }) => {
         className="card-background"
         style={{
           backgroundImage: backgroundImage
-            ? `linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url(${backgroundImage})`
+            ? `linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(${backgroundImage})`
             : undefined,
           backgroundColor: backgroundColor || 'black',
           backgroundSize: "cover",
