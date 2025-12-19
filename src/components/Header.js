@@ -19,7 +19,7 @@ function Header({ title, content, image, file }) {
     }}>
       <nav>
         <div className="logo">
-          <Link><img src={Logo} alt="Logo" /></Link>
+          <Link to="/"><img src={Logo} alt="Logo" /></Link>
         </div>
 
         <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
