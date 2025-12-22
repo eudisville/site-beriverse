@@ -31,7 +31,7 @@ function Header({ title, content, image, file }) {
           <Link to="/">Accueil</Link>
           <Link to="/tech">Technology</Link>
           <Link to="/academy">Academy</Link>
-          <Link to="/studio">Block Studio</Link>
+          <Link to="/studio">Beriverse X</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/careers">Jobs</Link>
         </div>

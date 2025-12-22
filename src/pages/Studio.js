@@ -7,16 +7,16 @@ function Studio() {
   return (
     <div>
       <Header 
-        title="Block Studio, au service de la créativité" 
-        content="Block Studio est la branche créative de Beriverse axée sur le design." 
+        title="Beriverse X" 
+        content="Notre Agence créative spécialisée en design et marketing numérique." 
         image={img}
         button= "Nos Services"
       />
 
       <section className='services'>
           <div className="services-content">
-            <h1>Nos services Studio</h1>
-            <p>Block Studio fournit des services créatifs à forte valeur ajoutée contribuant à améliorer l'image de vos projets.</p>
+            <h1>Les services de Beriverse X</h1>
+            <p>Notre agence offre des services complets de design et de marketing numérique pour booster votre présence en ligne.</p>
             <a href="/brochure.pdf" download>
               <button>Télécharger la brochure</button>
             </a>
