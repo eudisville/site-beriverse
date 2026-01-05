@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import img1 from './assets/side.jpg'
+import img1 from './assets/GenZ1.jpg'
 import Activity from '../components/Activity'
 import image1 from "./assets/imz3.jpg"
 import image2 from "./assets/imz1.jpg"
@@ -35,10 +35,10 @@ function Academy() {
         <section className='program'>
             <div className="program-content">
               <div className="program-content-text">
-                <h1>Apprenez avec des instructeurs de premier plan</h1>
-                <p>Nos instructeurs disposent de réels expériences dans les domaines dans lesquels nous formons.</p>
+                <h1>Programmes Beriverse Academy</h1>
+                <p>Téléchargez la brochure pour découvrir nos programmes</p>
                 <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
-                  <button>Discuter sur WhatsApp</button>
+                  <button>Télécharger la brochure</button>
                 </a>
               </div>
 

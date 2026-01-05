@@ -15,7 +15,7 @@ function Header({ title, content, image, file }) {
   return (
     <header 
     style={{
-       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(${image})`
+       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${image})`
     }}>
       <nav>
         <div className="logo">
@@ -29,8 +29,8 @@ function Header({ title, content, image, file }) {
 
         <div className={`links ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <Link to="/">Accueil</Link>
-          <Link to="/tech">Technology</Link>
-          <Link to="/academy">Academy</Link>
+          <Link to="/tech">for Business</Link>
+          <Link to="/academy">Academie</Link>
           <Link to="/studio">Beriverse X</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/careers">Jobs</Link>

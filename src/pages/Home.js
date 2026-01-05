@@ -14,9 +14,9 @@ function Home() {
   return (
     <div>
       <Header
-        title="Inspirer et Transformer le monde." 
+        title="" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
-        image="cd.jpg" 
+        image="wall.jpg" 
       />
 
       <section className='about'>
