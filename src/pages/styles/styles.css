@@ -35,7 +35,6 @@ section h1 {
     font-size: 60px;
     margin-bottom: 20px;
     font-weight: bold;
-    line-height: 70px;
 }
 
 section p {
@@ -91,7 +90,7 @@ section p {
 
 .cards {
     color: rgb(0, 0, 0);
-    height: 100vh;
+    height: auto;
     background-color: rgb(247, 247, 247);
 }
 

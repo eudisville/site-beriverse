@@ -16,7 +16,7 @@ function Home() {
     <div>
       <TopBar />
       <Header
-        title="Beriverse, c'est ici" 
+        title="Beriverse c'est ici" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image="s.jpg" 
       />

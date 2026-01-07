@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import './styles/styles.css'
-import img1 from "./assets/divine.jpg"
+import img1 from "./assets/team.jpg"
 import image2 from "./assets/gemini.png"
 import image3 from "./assets/client.jpg"
 import image4 from "./assets/tics.jpg"
@@ -17,7 +17,7 @@ function Technology() {
     <div>
       <TopBar />
       <Header 
-        title="Devenez plus performants grâce au numérique" 
+        title="Beriverse for Business" 
         content="Nous aidons les entreprises à se transformer à l'ère du numérique."
         image={img1}
         button="Parcourir nos offres"
