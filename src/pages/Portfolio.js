@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
 import img1 from './assets/port.jpg'
+import TopBar from '../components/TopBar'
 
 function Portfolio() {
   return (
     <div>
+      <TopBar />
       <Header 
         title="Notre Portfolio" 
         content="Découvrez nos réalisations et projets phares de Beriverse."

@@ -8,7 +8,7 @@
 }
 
 header {
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url('/public/wall.jpg');
     background-size: cover;
@@ -46,7 +46,7 @@ header {
 }
 
 .text p {
-    font-size: 10px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
 }
@@ -69,6 +69,9 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+    header {
+        background-position: -400px;
+    }
 
     .text {
         width: 100%;
@@ -77,10 +80,6 @@ button:hover {
     .text h1 {
         font-size: 48px;
         line-height: normal;
-    }
-
-    .text p {
-        visibility: hidden;
     }
 
     button {

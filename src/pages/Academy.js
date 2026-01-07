@@ -7,13 +7,15 @@ import image2 from "./assets/imz1.jpg"
 import image3 from "./assets/imz2.jpg"
 import './styles/academy.css'
 import { Link } from 'react-router-dom'
+import TopBar from '../components/TopBar'
 
 function Academy() {
   return (
     <div>
+      <TopBar />
       <Header 
-        title="Bienvenue à Beriverse Academy" 
-        content="Démocratiser l'éducation technologique en Afrique."
+        title="Beriverse Academy" 
+        content="Nous formons en technologie, design, branding et business afin d’aider les créatifs et le grand public à gagner en compétences et à réussir en toute indépendance."
         image={img1}
         button="Parcourir"
         />

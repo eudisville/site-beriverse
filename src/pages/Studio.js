@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
-import img from "./assets/pr.jpg"
+import img from "./assets/yc.jpg"
 import './styles/studio.css'
+import TopBar from '../components/TopBar'
 
 function Studio() {
   return (
     <div>
+      <TopBar />
       <Header 
         title="Beriverse X" 
         content="Notre Agence créative spécialisée en design et marketing numérique." 

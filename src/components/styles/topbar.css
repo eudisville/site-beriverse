@@ -1,0 +1,12 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    padding: 0 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-left, .top-right {
+    font-weight: bold;
+}

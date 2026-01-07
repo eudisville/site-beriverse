@@ -10,10 +10,12 @@ import im2 from "./assets/smart.jpg"
 import im3 from "./assets/woff.jpg"
 import Card from '../components/Card'
 import Activity from '../components/Activity'
+import TopBar from '../components/TopBar'
 
 function Technology() {
   return (
     <div>
+      <TopBar />
       <Header 
         title="Devenez plus performants grâce au numérique" 
         content="Nous aidons les entreprises à se transformer à l'ère du numérique."

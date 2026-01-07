@@ -3,7 +3,7 @@ import './styles/header.css'
 import { Link } from 'react-router-dom'
 import './styles/header.css'
 import './styles/nav.css'
-import Logo from "./assets/Logo.png"
+import Logo from "./assets/Logo II.png"
 
 function Header({ title, content, image, file }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ function Header({ title, content, image, file }) {
   return (
     <header 
     style={{
-       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${image})`
+       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(${image})`
     }}>
       <nav>
         <div className="logo">
@@ -28,11 +28,11 @@ function Header({ title, content, image, file }) {
       </div>
 
         <div className={`links ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
-          <Link to="/">Accueil</Link>
+          <Link to="/">Notre Groupe</Link>
           <Link to="/tech">for Business</Link>
           <Link to="/academy">Academie</Link>
           <Link to="/studio">Beriverse X</Link>
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolio">Evènements</Link>
           <Link to="/careers">Jobs</Link>
         </div>
       </nav>

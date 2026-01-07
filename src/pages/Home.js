@@ -9,25 +9,30 @@ import './styles/styles.css'
 import img4 from './assets/onces.jpg'
 import img5 from './assets/twos.jpg'
 import img6 from './assets/threee.jpg'
+import TopBar from '../components/TopBar'
 
 function Home() {
   return (
     <div>
+      <TopBar />
       <Header
-        title="" 
+        title="Beriverse, c'est ici" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
-        image="wall.jpg" 
+        image="s.jpg" 
       />
 
       <section className='about'>
-        <h4>Beriverse Incorporation</h4>
-        <h1><span>Une entreprise</span> Nouvelle Génération</h1>
-        <p>
-            Beriverse Incorporation est une société ivoirienne active dans 
-            les secteurs de la Technologie, l’Education et l'Audiovisuel.
-            Fondée en 2025, la mission de Beriverse est : Permettre à tous d'accroître ses capacités.
-        </p>
-
+        
+            <h4>Notre Groupe</h4>
+            <h1><span>A Propos</span> de Beriverse</h1>
+        
+            <p>
+              Chez Beriverse, nous ne nous contentons pas de créer des solutions.
+              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités.
+              Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.
+              <br /><span style={{ fontWeight: 'bold' }}>Notre mission ? Accroître les capacités de tous</span>.
+            </p>
+          
         <div className="about-img"></div>
       </section>
 
@@ -58,10 +63,24 @@ function Home() {
           </div>
         </section> */}
 
+        <section className="slogan">
+          <h1><span>Beriverse </span>c'est ici</h1>
+        </section>
+
+        <section className='business'>
+          <div className="business-content">
+            <h1>Nos Expertises</h1>
+            <p> 
+              Beriverse mobilise la technologie, l’éducation et l’audiovisuel pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
+            </p>
+            <button>Télécharger la brochure</button>
+          </div>
+        </section>
+
         <section className="cards">
           <div className="card-items">
             <div className="card-text">
-              <h1><span>Aux dernières</span> nouvelles</h1>
+              <h1>Quoi de neuf</h1>
             </div>
             <div className='card-card'>
               <Card 
@@ -80,14 +99,6 @@ function Home() {
                 content="" 
               />
             </div>
-          </div>
-        </section>
-
-        <section className='business'>
-          <div className="business-content">
-            <h1>Nos Branches</h1>
-            <p>Nous disposons de plusieurs division dont chacune résout un problème spécifique de la société actuelle.</p>
-            <button>Télécharger la brochure</button>
           </div>
         </section>
 
