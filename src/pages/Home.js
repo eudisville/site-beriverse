@@ -73,7 +73,9 @@ function Home() {
             <p> 
               Beriverse mobilise la technologie, l’éducation et l’audiovisuel pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
             </p>
-            <button>Télécharger la brochure</button>
+            <a href="/Brochure - Beriverse.pdf" download>
+              <button>Télécharger la brochure</button>
+            </a>
           </div>
         </section>
 
