@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className='footer'>
       <div className="footer-left">
-        <h4>© 2025 Beriverse. Tous droits réservés.</h4>
+        <h4>© 2026 Beriverse. Tous droits réservés.</h4>
       </div>
       <div className="footer-right">
         <Link to="mailto:beriverse@gmail.com" target='_blank'><img src={Mail} alt="" /></Link>

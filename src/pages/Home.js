@@ -3,12 +3,14 @@ import Header from '../components/Header'
 // import Activity from '../components/Activity'
 import Card from '../components/Card'
 import './styles/styles.css'
+import './styles/rse.css'
 // import img1 from '../components/assets/des.jpg'
 // import img2 from '../components/assets/Bac.jpg'
 // import img3 from '../components/assets/vid.jpg'
 import img4 from './assets/onces.jpg'
 import img5 from './assets/twos.jpg'
 import img6 from './assets/threee.jpg'
+import img7 from './assets/frame.png'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -79,6 +81,30 @@ function Home() {
           </div>
         </section>
 
+        <section className='actions'>
+            <div className="actions-content">
+              <div className="actions-content-image">
+                <img src={img7} alt="" />
+              </div>
+              
+              <div className="actions-content-text">
+                <h1>Nous <br /> <span>innovons</span> <br /> et <span> impactons</span></h1>
+                <p>Chez Beriverse, nous développons des initiatives RSE dédiées à la nouvelle génération afin de l’inspirer, 
+                  de la former et de lui donner les clés pour construire l’avenir.</p>
+
+                <div className="speak">
+                  <h3><span>" </span>Beriverse n'est pas seulement une entreprise, c'est un mouvement d'innovation et d'impact.</h3>
+                  <h2>Eudes Koffi</h2>
+                  <p>Manager Executif</p>
+                </div>
+                <a href="https://www.behance.net/beriversestudio" target="_blank" rel="noopener noreferrer">
+                  {/* <button>Voir Plus</button> */}
+                </a>
+              </div>
+
+            </div>
+        </section>
+
         <section className="cards">
           <div className="card-items">
             <div className="card-text">
@@ -87,7 +113,7 @@ function Home() {
             <div className='card-card'>
               <Card 
                 backgroundImage={img4} 
-                title="Beriverse partenaire du programme Tremplin du Digital" 
+                title="Beriverse adopte une nouvelle signature"
                 content=""
               />
               <Card 
@@ -111,6 +137,7 @@ function Home() {
             <button>Nous Rejoindre</button>
           </div>
         </section> */}
+
     </div>
   )
 }

@@ -39,23 +39,11 @@ function Technology() {
                 title="Expérience client" 
                 content="Nous concevons des expériences client innovantes et personnalisées pour fidéliser vos clients et stimuler la croissance de votre entreprise."
               />
-              <Card 
+              <Card
                 backgroundImage={image2}
                 title="Automatisation"
                 content="Nos solutions d'automatisation permettent de réduire les tâches répétitives et d'améliorer l'efficacité opérationnelle."  
               />
-              {/* <Card 
-                backgroundImage={image6}
-                title="Transformation digitale" 
-              />
-              <Card 
-                backgroundImage={image5}
-                title="Développement de logiciels" 
-              />
-              <Card 
-                backgroundImage={image7}
-                title="Formation & Renforcement des capacités"  
-              /> */}
             </div>
           </div>
         </section>
