@@ -13,6 +13,8 @@ function Studio() {
         content="Notre Agence créative spécialisée en design et marketing numérique." 
         image={img}
         button= "Nos Services"
+        headerHeight="95vh"
+        overlayColor="rgba(0, 0, 0, 0.6)"
       />
 
       <section className='services'>

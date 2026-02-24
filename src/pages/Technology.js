@@ -1,4 +1,5 @@
 import React from 'react'
+import {  useEffect } from 'react'
 import Header from '../components/Header'
 import './styles/styles.css'
 import img1 from "./assets/team.jpg"
@@ -13,6 +14,10 @@ import Activity from '../components/Activity'
 import TopBar from '../components/TopBar'
 
 function Technology() {
+useEffect(() => {
+    document.title = "Beriverse for Business";
+  }, []);
+
   return (
     <div>
       <TopBar />
@@ -21,9 +26,16 @@ function Technology() {
         content="Nous aidons les entreprises à se transformer à l'ère du numérique."
         image={img1}
         button="Parcourir nos offres"
+        headerHeight="95vh"
+        overlayColor="rgba(0, 0, 0, 0.6)"
+        links={[
+          { label: "Accueil", to: "/" },
+          { label: "Nos Services", to: "#services" },
+          { label: "Secteurs d'activités", to: "#sectors" },
+        ]}
      />
 
-     <section className="cards">
+     <section className="cards" id='services'>
           <div className="card-items">
             <div className="card-text">
               <h1><span>Nos</span> Expertises</h1>
@@ -64,7 +76,7 @@ function Technology() {
             </div>
         </section>
 
-        <section className="cards">
+        <section className="cards" id='sectors'>
           <div className="card-items">
             <div className="card-text">
               <h1><span>Nos</span> secteurs d'activités</h1>
