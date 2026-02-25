@@ -21,6 +21,7 @@ function Home() {
         title="Beriverse c'est ici" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image="s.jpg" 
+        headerHeight="95vh"
       />
 
       <section className='about'>
@@ -30,9 +31,10 @@ function Home() {
         
             <p>
               Chez Beriverse, nous ne nous contentons pas de créer des solutions.
-              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités.
-              Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.
-              <br /><span style={{ fontWeight: 'bold' }}>Notre mission ? Accroître les capacités de tous</span>.
+              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités. <br />
+              <br />Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, 
+              nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.<br />
+              <br /><span style={{ fontWeight: 'bold' }}>Notre mission, Rendre la technologie, l'éducation et la créativité accessibles à tous</span>.
             </p>
           
         <div className="about-img"></div>

@@ -91,7 +91,12 @@
 
     .actions-content-text {
         width: 100%;
-        margin: 40px 0;
+        margin: 20px 0;
+    }
+
+    .actions-content-text h1 {
+        font-size: 42px;
+        line-height: 1;
     }
 
     .actions-content-image img {

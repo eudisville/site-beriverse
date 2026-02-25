@@ -57,7 +57,7 @@ function Academy() {
         </section>
 
         <section className="digits">
-          <h2>Nos Chiffres 2025</h2>
+          <h2>Nos Chiffres Clés</h2>
 
           <div className="digit">
             <div className="digit-content">

@@ -233,6 +233,11 @@ section p {
         font-size: 18px;
     }
 
+    .about p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
     .about-img {
         background-position: center;
     }
