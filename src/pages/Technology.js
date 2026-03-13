@@ -1,13 +1,15 @@
 import React from 'react'
 import {  useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from '../components/Header'
 import './styles/styles.css'
 import img1 from "./assets/team.jpg"
 import image2 from "./assets/gemini.png"
 import image3 from "./assets/client.jpg"
 import image4 from "./assets/tics.jpg"
-import im1 from "./assets/exp.jpg"
-import im2 from "./assets/smart.jpg"
+import im1 from "./assets/air.jpg"
+import im2 from "./assets/cine.jpg"
 import im3 from "./assets/woff.jpg"
 import Card from '../components/Card'
 import Activity from '../components/Activity'
@@ -16,6 +18,10 @@ import TopBar from '../components/TopBar'
 function Technology() {
 useEffect(() => {
     document.title = "Beriverse for Business";
+    AOS.init({
+      duration: 1000, 
+      once: true,
+    });
   }, []);
 
   return (
@@ -82,8 +88,8 @@ useEffect(() => {
               <h1><span>Nos</span> secteurs d'activités</h1>
             </div>
             <div className='activity-card'>
-              <Activity backgroundImage={im1} title="Assurance" content="" />
-              <Activity backgroundImage={im2} title="Services publique" content="" />
+              <Activity backgroundImage={im1} title="Défense" content="" />
+              <Activity backgroundImage={im2} title="Divertissement & Médias" content="" />
               <Activity backgroundImage={im3} title="Biens et services de consommation" content="" />
             </div>
           </div>

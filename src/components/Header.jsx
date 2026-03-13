@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './styles/header.css'
 import './styles/nav.css'
 import { Link } from 'react-router-dom'
 import DefaultLogo from "./assets/Logo II.png"
 
 function Header({
+
   // Contenu header
   title,
   content,
@@ -33,6 +36,13 @@ function Header({
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+      AOS.init({
+        duration: 1000, 
+        once: true,
+      });
+    }, []);
 
   return (
     <header
@@ -79,7 +89,7 @@ function Header({
       </nav>
 
       <div className="header">
-        <div className="text">
+        <div className="text" data-aos="fade-up">
           <h1>{title}</h1>
           <p>{content}</p>
         </div>
