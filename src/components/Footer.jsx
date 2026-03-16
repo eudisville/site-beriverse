@@ -14,7 +14,7 @@ function Footer() {
         <h4>© 2026 Beriverse. Tous droits réservés.</h4>
       </div>
       <div className="footer-right">
-        <Link to="mailto:beriverse@gmail.com" target='_blank'><img src={Mail} alt="" /></Link>
+        <Link to="mailto:hello@beriverse.fr" target='_blank'><img src={Mail} alt="" /></Link>
         <Link to="https://www.instagram.com/share/BAUUd8x24q" target='_blank'><img src={Instagram} alt="" /></Link>
         <Link><img src={Twitter} alt="" /></Link>
         <Link to="https://www.linkedin.com/company/beriverse/" target='_blank'><img src={Linkedin} alt="" /></Link>
