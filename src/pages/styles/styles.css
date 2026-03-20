@@ -78,7 +78,7 @@ section p {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../assets/b2B.jpg');
+    background-image: url('../assets/wom.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -159,7 +159,7 @@ section p {
     width: 100%;
     display: flex;
     align-items: center;
-    background: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets//bbb.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -177,7 +177,7 @@ section p {
 }
 
 .case-content button {
-    background-color: #0131C3;
+    background-color: #0039e3;
     font-weight: bold;
     color: white;
 }
@@ -274,14 +274,21 @@ section p {
         width: 100%;
     }
 
+    .case {
+        height: 100vh;
+    }
+
     .case-content {
         flex-direction: column;
-        text-align: center;
     }
 
     .case-content-text {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .case-content-text h1 {
+        font-size: 48px;
     }
 
     .portfolio-content {

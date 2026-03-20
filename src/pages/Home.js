@@ -7,10 +7,11 @@ import './styles/rse.css'
 // import img1 from '../components/assets/des.jpg'
 // import img2 from '../components/assets/Bac.jpg'
 // import img3 from '../components/assets/vid.jpg'
+import back from './assets/yc.jpg'
 import img4 from './assets/onces.jpg'
 import img5 from './assets/twos.jpg'
 import img6 from './assets/threee.jpg'
-import img7 from './assets/frame.png'
+import img7 from './assets/young.jpg'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -20,7 +21,7 @@ function Home() {
       <Header
         title="Beriverse c'est ici" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
-        image="s.jpg" 
+        image={back} 
         headerHeight="95vh"
       />
 

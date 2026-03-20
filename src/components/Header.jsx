@@ -24,7 +24,7 @@ function Header({
     { label: "Notre Groupe", to: "/" },
     { label: "For Business", to: "/tech" },
     { label: "Beriverse Academy", to: "/academy" },
-    { label: "Beriverse X", to: "/studio" },
+    { label: "Notre Impact", to: "/impact" },
     { label: "Evènements", to: "/portfolio" },
     { label: "Jobs", to: "/careers" },
   ], 

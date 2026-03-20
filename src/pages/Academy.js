@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import Header from '../components/Header'
 import AcademyLogo from './assets/BA Logo 2.png'
-import AcademyImage from './assets/ba-header.jpg'
+import AcademyImage from './assets/dcp.jpg'
 import Activity from '../components/Activity'
 import image1 from "./assets/imz3.jpg"
 import image2 from "./assets/branding.jpg"

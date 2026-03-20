@@ -29,7 +29,7 @@ useEffect(() => {
       <TopBar />
       <Header 
         title="Beriverse for Business" 
-        content="Nous aidons les entreprises à se transformer à l'ère du numérique."
+        content="Nous aidons les entreprises à atteindre leurs objectifs via nos services orientés vers le B2B."
         image={img1}
         button="Parcourir nos offres"
         headerHeight="95vh"
@@ -69,11 +69,11 @@ useEffect(() => {
         <section className='case'>
             <div className="case-content">
               <div className="case-content-text">
-                <h1>L'IA, levier de performance des des entreprises aujourd'hui</h1>
-                <p>Découvrez comme l'IA peut être un game changer pour les organisations dans cette ère de forte concurrence.</p>
-                <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
+                <h1>Notre Objectif</h1>
+                <p>Permettre aux organisations de saisir les nouvelles opportunités du marché pour ainsi accroître leurs performances</p>
+                {/* <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
                   <button>Télécharger l'étude</button>
-                </a>
+                </a> */}
               </div>
 
               <div className="case-content-image">
@@ -90,7 +90,7 @@ useEffect(() => {
             <div className='activity-card'>
               <Activity backgroundImage={im1} title="Défense" content="" />
               <Activity backgroundImage={im2} title="Divertissement & Médias" content="" />
-              <Activity backgroundImage={im3} title="Biens et services de consommation" content="" />
+              <Activity backgroundImage={im3} title="Retail" content="" />
             </div>
           </div>
         </section>
