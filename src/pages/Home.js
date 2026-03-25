@@ -19,7 +19,7 @@ function Home() {
     <div>
       <TopBar />
       <Header
-        title="Beriverse c'est ici" 
+        title="Together, let's change the world." 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image={back} 
         headerHeight="95vh"
