@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home';
 import Technology from './pages/Technology';
 import Academy from './pages/Academy';
-import Studio from './pages/Studio';
+import Impact from './pages/Impact';
 import Careers from './pages/Careers';
 import Footer from "./components/Footer"
-import Portfolio from './pages/Portfolio';
+import Studio from './pages/Studio';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/tech" element={<Technology />} />
         <Route path="/academy" element={<Academy />} />
-        <Route path="/impact" element={<Studio />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/studio" element={<Studio />} />
+        <Route path="/impact" element={<Impact />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
 

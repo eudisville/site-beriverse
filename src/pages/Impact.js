@@ -4,7 +4,7 @@ import img from "./assets/impact.jpg"
 import './styles/studio.css'
 import TopBar from '../components/TopBar'
 
-function Studio() {
+function Impact() {
   return (
     <div>
       <TopBar />
@@ -30,4 +30,4 @@ function Studio() {
   )
 }
 
-export default Studio
+export default Impact

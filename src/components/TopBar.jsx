@@ -1,13 +1,19 @@
 import React from 'react'
 import './styles/topbar.css'
 
-function TopBar() {
+function TopBar({
+
+  bgColor = "#fff",
+  fontColor = "#000",
+  borBottom = "1px solid #ccc"
+
+}) {
   return (
-    <div className='topbar'>
-        <div className="top-left">
+    <div style={{ background: bgColor, borderBottom: borBottom }} className='topbar'>
+        <div className="top-left" style={{ color: fontColor }} >
             Beriverse Incorporation
         </div>
-      <div className="top-right">Global</div>
+      <div style={{ color: fontColor }} className="top-right">Cote d'Ivoire</div>
     </div>
   )
 }

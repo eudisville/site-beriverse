@@ -15,6 +15,7 @@ function Header({
   file,
   // Personnalisation nav
   logo = DefaultLogo,
+  logoWidth = "50px",
   navBgColor = "white",
   navHeight = "80px",
   linkFontSize = "1rem",
@@ -22,10 +23,10 @@ function Header({
   // links
   links = [
     { label: "Notre Groupe", to: "/" },
-    { label: "For Business", to: "/tech" },
-    { label: "Beriverse Academy", to: "/academy" },
+    { label: "Technologie", to: "/tech" },
+    { label: "Academy", to: "/academy" },
+    { label: "Studio", to: "/studio" },
     { label: "Notre Impact", to: "/impact" },
-    { label: "Evènements", to: "/portfolio" },
     { label: "Jobs", to: "/careers" },
   ], 
 
@@ -53,7 +54,7 @@ function Header({
     >
       <nav style={{ backgroundColor: navBgColor, height: navHeight }}>
         <div className="logo">
-          <Link to="/"><img src={logo} alt="Logo" /></Link>
+          <Link to="/"><img style={{ width: logoWidth }} src={logo} alt="Logo" /></Link>
         </div>
 
         <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
