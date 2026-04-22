@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header'
 import image from "./assets/corp.jpg"
 import TopBar from '../components/TopBar'

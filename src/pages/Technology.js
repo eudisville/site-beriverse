@@ -8,9 +8,9 @@ import img1 from "./assets/team.jpg"
 import image2 from "./assets/gemini.png"
 import image3 from "./assets/client.jpg"
 import image4 from "./assets/tics.jpg"
-import im1 from "./assets/air.jpg"
-import im2 from "./assets/cine.jpg"
-import im3 from "./assets/woff.jpg"
+import im1 from "./assets/b2B.jpg"
+import im2 from "./assets/Image1.jpg"
+import im3 from "./assets/corporation.jpg"
 import Card from '../components/Card'
 import Activity from '../components/Activity'
 import TopBar from '../components/TopBar'
@@ -29,14 +29,15 @@ useEffect(() => {
       <TopBar />
       <Header 
         title="Beriverse for Business" 
-        content="Nous aidons les entreprises à atteindre leurs objectifs via nos services orientés vers le B2B."
+        content="Nous vous fournissons des consultants ingénieurs hautement qualifiés pour renforcer les équipes de ses clients sur des projets d'innovation technologique."
+
         image={img1}
         button="Parcourir nos offres"
         headerHeight="95vh"
         overlayColor="rgba(0, 0, 0, 0.6)"
         links={[
           { label: "Accueil", to: "/" },
-          { label: "Nos Services", to: "#services" },
+          { label: "Nos Expertises", to: "#services" },
           { label: "Secteurs d'activités", to: "#sectors" },
         ]}
      />
@@ -49,18 +50,18 @@ useEffect(() => {
             <div className='card-card'>
               <Card 
                 backgroundImage={image4}
-                title="Data & IA" 
-                content="Exploitez la puissance de vos données grâce à nos solutions d'intelligence artificielle et d'analyse avancée."
+                title="Ingénierie Logiciels & Cloud" 
+                content="Développeurs, Architectes Logiciels, DevOps... "
               />
               <Card 
                 backgroundImage={image3}
-                title="Expérience client" 
-                content="Nous concevons des expériences client innovantes et personnalisées pour fidéliser vos clients et stimuler la croissance de votre entreprise."
+                title="Administration Réseaux" 
+                content="Administrateurs Systèmes, Ingénieurs Réseaux..."
               />
               <Card
                 backgroundImage={image2}
-                title="Automatisation"
-                content="Nos solutions d'automatisation permettent de réduire les tâches répétitives et d'améliorer l'efficacité opérationnelle."  
+                title="Support Technique"
+                content="Techniciens Support IT..."  
               />
             </div>
           </div>
@@ -69,11 +70,11 @@ useEffect(() => {
         <section className='case'>
             <div className="case-content">
               <div className="case-content-text">
-                <h1>Notre Objectif</h1>
-                <p>Permettre aux organisations de saisir les nouvelles opportunités du marché pour ainsi accroître leurs performances</p>
-                {/* <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
-                  <button>Télécharger l'étude</button>
-                </a> */}
+                <h1>Nous faire confiance</h1>
+                <p>Nous disposons de consultants de premier ordre dans leurs domaines prets à mettre leurs expertises au service de votre entreprise</p>
+                <a href="https://wa.me/2250566309197" target="_blank" rel="noopener noreferrer">
+                  <button>Prendre Rendez-Vous</button>
+                </a>
               </div>
 
               <div className="case-content-image">
@@ -88,12 +89,13 @@ useEffect(() => {
               <h1><span>Nos</span> secteurs d'activités</h1>
             </div>
             <div className='activity-card'>
-              <Activity backgroundImage={im1} title="Défense" content="" />
-              <Activity backgroundImage={im2} title="Divertissement & Médias" content="" />
-              <Activity backgroundImage={im3} title="Retail" content="" />
+              <Activity backgroundImage={im1} title="Services Financiers" content="" />
+              <Activity backgroundImage={im2} title="Télécoms" content="" />
+              <Activity backgroundImage={im3} title="Cabinet Technologique" content="" />
             </div>
           </div>
         </section>
+
     </div>
   )
 }
