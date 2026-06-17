@@ -28,7 +28,7 @@ useEffect(() => {
     <div>
       <TopBar />
       <Header 
-        title="Beriverse for Business" 
+        title="Des solutions pour votre croissance" 
         content="Nous vous fournissons des consultants ingénieurs hautement qualifiés pour renforcer les équipes de ses clients sur des projets d'innovation technologique."
 
         image={img1}

@@ -19,7 +19,7 @@ function Home() {
     <div>
       <TopBar />
       <Header
-        title="Together, let's change the world." 
+        title="A vos côtés, pour demain" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image={back} 
         headerHeight="95vh"
@@ -78,7 +78,7 @@ function Home() {
             <p> 
               Beriverse mobilise la technologie, l’éducation et l’audiovisuel pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
             </p>
-            <a href="/Brochure - Beriverse.pdf" download>
+            <a href="/brochure.pdf" download>
               <button>Télécharger la brochure</button>
             </a>
           </div>

@@ -13,7 +13,7 @@ function TopBar({
         <div className="top-left" style={{ color: fontColor }} >
             Beriverse Incorporation
         </div>
-      <div style={{ color: fontColor }} className="top-right">Cote d'Ivoire</div>
+      <div style={{ color: fontColor }} className="top-right">Global</div>
     </div>
   )
 }
