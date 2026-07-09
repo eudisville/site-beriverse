@@ -1,5 +1,5 @@
 import React from 'react'
-// import { useEffect } from 'react'
+import { useEffect } from 'react'
 import Header from '../components/Header'
 import AcademyLogo from './assets/BA Logo 2.png'
 import AcademyImage from './assets/dcp.jpg'
