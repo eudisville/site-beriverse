@@ -5,6 +5,7 @@
     height: 6vh;
     padding: 0 30px;
     border-bottom: 1px solid #ccc;
+    color: rgb(22, 6, 100);
 }
 
 .top-left, .top-right {

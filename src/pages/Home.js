@@ -7,11 +7,11 @@ import './styles/rse.css'
 // import img1 from '../components/assets/des.jpg'
 // import img2 from '../components/assets/Bac.jpg'
 // import img3 from '../components/assets/vid.jpg'
-import back from './assets/yc.jpg'
+import back from './assets/top.png'
 import img4 from './assets/onces.jpg'
 import img5 from './assets/twos.jpg'
 import img6 from './assets/threee.jpg'
-import img7 from './assets/young.jpg'
+import img7 from './assets/threee.jpg'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -32,10 +32,10 @@ function Home() {
         
             <p>
               Chez Beriverse, nous ne nous contentons pas de créer des solutions.
-              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités. <br />
-              <br />Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, 
-              nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.<br />
-              <br /><span style={{ fontWeight: 'bold' }}>Notre mission, Rendre la technologie, l'éducation et la créativité accessibles à tous</span>.
+              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités.
+              Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, 
+              nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.
+              <span style={{ fontWeight: 'bold' }}> Notre mission, Rendre la technologie, l'éducation et la créativité accessibles à tous</span>.
             </p>
           
         <div className="about-img"></div>
@@ -69,14 +69,14 @@ function Home() {
         </section> */}
 
         <section className="slogan">
-          <h1><span>Beriverse </span>c'est ici</h1>
+          <h1>Welcome to <span>Beriverse </span></h1>
         </section>
 
         <section className='business'>
           <div className="business-content">
             <h1>Nos Expertises</h1>
             <p> 
-              Beriverse mobilise la technologie, l’éducation et l’audiovisuel pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
+              Beriverse mobilise son expertise pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
             </p>
             <a href="/brochure.pdf" download>
               <button>Télécharger la brochure</button>

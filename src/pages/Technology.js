@@ -4,13 +4,21 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from '../components/Header'
 import './styles/styles.css'
-import img1 from "./assets/team.jpg"
-import image2 from "./assets/gemini.png"
-import image3 from "./assets/client.jpg"
-import image4 from "./assets/tics.jpg"
-import im1 from "./assets/b2B.jpg"
-import im2 from "./assets/Image1.jpg"
-import im3 from "./assets/corporation.jpg"
+import img1 from "./assets/Jan.png"
+import image1 from "./assets/soft.jpg"
+import image2 from "./assets/ia.jpg"
+import image3 from "./assets/sec.jpg"
+import image4 from "./assets/cloud.jpg"
+import image5 from "./assets/sys.jpg"
+import image6 from "./assets/td.jpg"
+import image7 from "./assets/eco.jpg"
+import image8 from "./assets/client.jpg"
+import im1 from "./assets/bk.jpg"
+import im2 from "./assets/in.jpg"
+import im3 from "./assets/r.jpg"
+import im4 from "./assets/cm.jpg"
+import im5 from "./assets/Image1.jpg"
+import im6 from "./assets/ps.jpg"
 import Card from '../components/Card'
 import Activity from '../components/Activity'
 import TopBar from '../components/TopBar'
@@ -28,8 +36,8 @@ useEffect(() => {
     <div>
       <TopBar />
       <Header 
-        title="Des solutions pour votre croissance" 
-        content="Nous vous fournissons des consultants ingénieurs hautement qualifiés pour renforcer les équipes de ses clients sur des projets d'innovation technologique."
+        title="Entreprises"
+        content="Nous contribuons activement à la transformation digitale et au développement des compétences des entreprises pour une meilleure performance."
 
         image={img1}
         button="Parcourir nos offres"
@@ -49,20 +57,83 @@ useEffect(() => {
             </div>
             <div className='card-card'>
               <Card 
-                backgroundImage={image4}
-                title="Ingénierie Logiciels & Cloud" 
-                content="Développeurs, Architectes Logiciels, DevOps... "
+                backgroundImage={image1}
+                title="Logiciels & Applications" 
+                content= ""
               />
               <Card 
-                backgroundImage={image3}
-                title="Administration Réseaux" 
-                content="Administrateurs Systèmes, Ingénieurs Réseaux..."
+                backgroundImage={image2}
+                title="Intelligence Artificielle & Big Data" 
+                content=""
               />
               <Card
-                backgroundImage={image2}
-                title="Support Technique"
-                content="Techniciens Support IT..."  
+                backgroundImage={image3}
+                title="Cybersécurité"
+                content=""  
               />
+              <Card
+                backgroundImage={image4}
+                title="Cloud"
+                content=""  
+              />
+              <Card
+                backgroundImage={image5}
+                title="Systèmes & Réseaux"
+                content=""  
+              />
+              <Card
+                backgroundImage={image6}
+                title="Transformation Digitale"
+                content=""  
+              />
+              <Card
+                backgroundImage={image7}
+                title="E-Commerce"
+                content=""  
+              />
+              <Card
+                backgroundImage={image8}
+                title="Expérience Client"
+                content=""  
+              />
+
+            </div>
+          </div>
+        </section>
+
+        <section className="digits">
+          <h2>Chiffres Clés 2025</h2>
+
+          <div className="digit">
+            <div className="digit-content">
+              <h1>20+</h1>
+              <h4>Projets Réalisés</h4>
+            </div>
+
+            <div className="digit-content">
+              <h1>5+</h1>
+              <h4>Organisations Formées</h4>
+            </div>
+
+            <div className="digit-content">
+              <h1>2</h1>
+              <h4>Logiciels Propriétaires</h4>
+            </div>
+          </div>
+        </section>
+
+        <section className="cards" id='sectors'>
+          <div className="card-items">
+            <div className="card-text">
+              <h1><span>Nos</span> secteurs d'activités</h1>
+            </div>
+            <div className='activity-card'>
+              <Activity backgroundImage={im1} title="Banque" content="" />
+              <Activity backgroundImage={im2} title="Assurance" content="" />
+              <Activity backgroundImage={im3} title="Commerce" content="" />
+              <Activity backgroundImage={im4} title="Médias" content="" />
+              <Activity backgroundImage={im5} title="Télécommunications" content="" />
+              <Activity backgroundImage={im6} title="Services Publiques" content="" />
             </div>
           </div>
         </section>
@@ -81,19 +152,6 @@ useEffect(() => {
                 {/* <img src="demy.jpg" alt="" /> */}
               </div>
             </div>
-        </section>
-
-        <section className="cards" id='sectors'>
-          <div className="card-items">
-            <div className="card-text">
-              <h1><span>Nos</span> secteurs d'activités</h1>
-            </div>
-            <div className='activity-card'>
-              <Activity backgroundImage={im1} title="Services Financiers" content="" />
-              <Activity backgroundImage={im2} title="Télécoms" content="" />
-              <Activity backgroundImage={im3} title="Cabinet Technologique" content="" />
-            </div>
-          </div>
         </section>
 
     </div>

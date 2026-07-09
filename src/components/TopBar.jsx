@@ -4,7 +4,7 @@ import './styles/topbar.css'
 function TopBar({
 
   bgColor = "#fff",
-  fontColor = "#000",
+  fontColor = "rgb(22, 6, 100)",
   borBottom = "1px solid #ccc"
 
 }) {

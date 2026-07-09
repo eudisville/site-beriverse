@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import Header from '../components/Header'
 import AcademyLogo from './assets/BA Logo 2.png'
 import AcademyImage from './assets/dcp.jpg'
@@ -17,24 +17,24 @@ import canva from "./assets/canva.jpg"
 import bp from "./assets/bp.jpg"
 
 function Academy() {
-  useEffect(() => {
-    document.title = "Beriverse Academy";
-    const favicon = document.querySelector("link[rel='icon']");
-    favicon.href = "ba-favicon.png";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Beriverse Academy";
+  //   const favicon = document.querySelector("link[rel='icon']");
+  //   favicon.href = "ba-favicon.png";
+  // }, []);
 
   return (
     <div>
       <TopBar />
       <Header
-        title="Beriverse Academy"
-        content="Branche de Beriverse Inc. dédiée à la formation et au développement des compétences dans divers domaines."
+        title="Particuliers"
+        content="Engagés envers le grand public, nous offrons des formations de qualités ainsi que des services digitaux."
         image={AcademyImage}
-        logo={AcademyLogo}
+        // logo={AcademyLogo}
         links={[
           { label: "Accueil", to: "/" },
-          { label: "Nos Formations", to: "#formations" },
-          { label: "Nos Programmes", to: "#programmes" },
+          { label: "Formations", to: "#formations" },
+          { label: "Services Digitaux", to: "#programmes" },
         ]}
         navBgColor="#ffffff"
         navHeight = "80px"

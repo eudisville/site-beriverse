@@ -16,16 +16,15 @@ function Header({
   // Personnalisation nav
   logo = DefaultLogo,
   logoWidth = "50px",
-  navBgColor = "white",
+  // navBgColor = "white",
   navHeight = "80px",
-  linkFontSize = "1rem",
-  linkColor = "#000000",
+  linkFontSize = "16px",
+  linkColor = "rgb(22, 6, 100)",
   // links
   links = [
     { label: "Notre Groupe", to: "/" },
-    { label: "Technologie", to: "/tech" },
-    { label: "Academy", to: "/academy" },
-    { label: "Studio", to: "/studio" },
+    { label: "Entreprises", to: "/tech" },
+    { label: "Particuliers", to: "/academy" },
     { label: "Notre Impact", to: "/impact" },
     { label: "Jobs", to: "/careers" },
   ], 
@@ -48,11 +47,11 @@ function Header({
   return (
     <header
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), ${overlayColor}), url(${image})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), ${overlayColor}), url(${image})`,
         height: headerHeight,
       }}
     >
-      <nav style={{ backgroundColor: navBgColor, height: navHeight }}>
+      <nav style={{ height: navHeight }}>
         <div className="logo">
           <Link to="/"><img style={{ width: logoWidth }} src={logo} alt="Logo" /></Link>
         </div>
@@ -65,7 +64,7 @@ function Header({
   <div
     className={`links ${isOpen ? 'active' : ''}`}
     onClick={toggleMenu}
-    style={{ fontSize: linkFontSize }}
+    style={{ fontSize: linkFontSize, gap: "40px" }}
   >
     {links.map((link, index) =>
       link.to.startsWith("#") ? (

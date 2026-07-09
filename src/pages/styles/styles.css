@@ -23,7 +23,8 @@ section h4 {
 }
 
 .about p {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .about-img {
@@ -75,6 +76,7 @@ section p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -90,16 +92,18 @@ section p {
 .business-content {
     width: 60%;
     color: white;
+    text-align: justify;
 }
 
 .cards {
     color: rgb(0, 0, 0);
     height: auto;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
 }
 
 .card-text h1{
     font-size: 48px;
+    margin: 40px 0 40px 0; 
     text-align: left;
     font-weight: bold;
 }
@@ -112,6 +116,7 @@ section p {
     /* justify-content: center; */
     text-align: left;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .card-card {
@@ -120,7 +125,7 @@ section p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }
 
 .slogan {
@@ -163,7 +168,7 @@ section p {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets//bbb.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets//trust.jpg);
     background-size: cover;
     background-position: center;
 }
