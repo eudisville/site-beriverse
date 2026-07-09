@@ -25,7 +25,7 @@ import TopBar from '../components/TopBar'
 
 function Technology() {
 useEffect(() => {
-    document.title = "Beriverse for Business";
+    document.title = "Beriverse : Entreprises";
     AOS.init({
       duration: 1000, 
       once: true,

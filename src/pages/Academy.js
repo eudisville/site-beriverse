@@ -17,11 +17,9 @@ import canva from "./assets/canva.jpg"
 import bp from "./assets/bp.jpg"
 
 function Academy() {
-  // useEffect(() => {
-  //   document.title = "Beriverse Academy";
-  //   const favicon = document.querySelector("link[rel='icon']");
-  //   favicon.href = "ba-favicon.png";
-  // }, []);
+  useEffect(() => {
+    document.title = "Beriverse : Particuliers";
+  }, []);
 
   return (
     <div>
