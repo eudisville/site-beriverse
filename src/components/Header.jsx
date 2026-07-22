@@ -24,7 +24,7 @@ function Header({
   links = [
     { label: "Notre Groupe", to: "/" },
     { label: "Entreprises", to: "/tech" },
-    { label: "Particuliers", to: "/academy" },
+    { label: "Particuliers", to: "/ic" },
     { label: "Notre Impact", to: "/impact" },
     { label: "Jobs", to: "/careers" },
   ], 
