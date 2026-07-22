@@ -1,14 +1,17 @@
 .course-card {
     width: 320px;
-    height: 550px;
+    height: 450px;
     border: 1px solid #cecece;
     padding: 20px;
+    margin-top: 30px;
 }
 
 .course-card h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .course-image {
@@ -34,9 +37,9 @@
 
 .course-infos h5 {
     font-size: 12px;
-    color: rgb(0, 103, 188);
+    color: rgb(0, 0, 0);
     margin-bottom: 5px;
-    background-color: rgb(209, 240, 255);
+    background-color: rgb(251, 255, 0);
     width: fit-content;
     font-weight: normal;
     padding: 5px 8px;
@@ -46,18 +49,8 @@
 .course-infos p {
     width: 100%;
     font-size: 16px;
-    color: #a2a2a2;
+    color: #2e2e2e;
     margin-top: 10px;
-}
-
-.course-infos button {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
