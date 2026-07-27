@@ -23,7 +23,7 @@ function Header({
   // links
   links = [
     { label: "Notre Groupe", to: "/" },
-    { label: "Entreprises", to: "/tech" },
+    { label: "Entreprises", to: "/entreprises" },
     { label: "Particuliers", to: "/ic" },
     { label: "Notre Impact", to: "/impact" },
     { label: "Jobs", to: "/careers" },

@@ -22,6 +22,7 @@ import im6 from "./assets/ps.jpg"
 import Card from '../components/Card'
 import Activity from '../components/Activity'
 import TopBar from '../components/TopBar'
+import TopCard from '../components/TopCard';
 
 function Technology() {
 useEffect(() => {
@@ -137,6 +138,60 @@ useEffect(() => {
             </div>
           </div>
         </section>
+
+        <section className="manage" id='sectors'>
+          <div className="manage-text">
+            <h1>Des formations top-management</h1>
+          </div>
+
+          <div className="manage-items">
+            <TopCard
+              title={
+                <>
+                  IA Appliquée <br />
+                  aux Assurances
+                </>
+              }
+              subtitle="Pour les Assureurs"
+              text="Découvrez notre formation sur l'application de l'IA dans le domaine des assurances afin d'automatiser vos processus de la souscription à la gestion de sinistres."
+            />
+
+            <TopCard
+              title={
+                <>
+                  IA Appliquée <br />
+                  à la Banque & Finance
+                </>
+              }
+              subtitle="Pour les Pros de la Finance"
+              text="Exploitez l'intelligence artificielle pour automatiser les analyses financières, optimiser les reportings, renforcer la conformité et améliorer la prise de décision."
+            />
+
+            <TopCard
+              title={
+                <>
+                  IA Appliquée <br />
+                  au Management
+                </>
+              }
+              subtitle="Pour les Managers & Dirigeants"
+              text="Apprenez à intégrer l'IA dans votre quotidien pour gagner en productivité, améliorer le pilotage de vos équipes et accélérer vos prises de décision."
+            />
+
+            <TopCard
+              title={
+                <>
+                  IA Appliquée <br />
+                  à l'Expérience Client
+                </>
+              }
+              subtitle="Pour les Entreprises"
+              text="Optimisez vos processus opérationnels et transformez l'expérience client grâce à l'intelligence artificielle, de l'automatisation des tâches au support intelligent."
+            />
+          </div>
+        </section>
+
+        
 
         <section className='case'>
             <div className="case-content">
