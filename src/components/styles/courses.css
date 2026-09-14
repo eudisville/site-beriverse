@@ -1,17 +1,20 @@
 .course-card {
     width: 320px;
-    height: 450px;
+    height: auto;
+    min-height: 450px;
     border: 1px solid #cecece;
     padding: 20px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .course-card h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
 }
 
 .course-image {
@@ -31,14 +34,13 @@
 }
 
 .course-infos {
-    margin-top: 30px;
+    margin-top: 15px;
     width: 100%;
 }
 
 .course-infos h5 {
     font-size: 12px;
     color: rgb(0, 0, 0);
-    margin-bottom: 5px;
     background-color: rgb(251, 255, 0);
     width: fit-content;
     font-weight: normal;
@@ -53,9 +55,62 @@
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+/* ==========================================================
+   1. MOBILE (Max 767px)
+   ========================================================== */
+@media (max-width: 767px) {
     .course-card {
         width: 100%;
+        max-width: 350px;
         height: auto;
+        min-height: initial;
+        margin: 20px auto 0 auto;
+        padding: 15px;
+    }
+
+    .course-image {
+        height: 180px;
+    }
+
+    .course-card h3 {
+        font-size: 18px;
+    }
+
+    .course-infos p {
+        font-size: 15px;
+    }
+}
+
+/* ==========================================================
+   2. TABLETTES (768px à 1024px)
+   ========================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .course-card {
+        width: 280px;
+        min-height: 430px;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .course-image {
+        height: 170px;
+    }
+
+    .course-card h3 {
+        font-size: 18px;
+    }
+}
+
+/* ==========================================================
+   3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
+   ========================================================== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .course-card {
+        width: 300px;
+        min-height: 450px;
+    }
+
+    .course-image {
+        height: 190px;
     }
 }

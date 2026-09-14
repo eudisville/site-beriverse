@@ -5,14 +5,10 @@ import 'aos/dist/aos.css';
 import Header from '../components/Header'
 import './styles/styles.css'
 import img1 from "./assets/Jan.png"
-import image1 from "./assets/soft.jpg"
+import image1 from "./assets/onces.jpg"
 import image2 from "./assets/ia.jpg"
 import image3 from "./assets/sec.jpg"
-import image4 from "./assets/cloud.jpg"
-import image5 from "./assets/sys.jpg"
-import image6 from "./assets/td.jpg"
-import image7 from "./assets/eco.jpg"
-import image8 from "./assets/client.jpg"
+import image4 from "./assets/bbb.jpg"
 import im1 from "./assets/bk.jpg"
 import im2 from "./assets/in.jpg"
 import im3 from "./assets/r.jpg"
@@ -59,42 +55,22 @@ useEffect(() => {
             <div className='card-card'>
               <Card 
                 backgroundImage={image1}
-                title="Logiciels & Applications" 
+                title="Intelligence Artificielle" 
                 content= ""
               />
               <Card 
                 backgroundImage={image2}
-                title="Intelligence Artificielle & Big Data" 
+                title="Big Data" 
                 content=""
               />
               <Card
                 backgroundImage={image3}
-                title="Cybersécurité"
+                title="Gestion des Opérations"
                 content=""  
               />
               <Card
                 backgroundImage={image4}
-                title="Cloud"
-                content=""  
-              />
-              <Card
-                backgroundImage={image5}
-                title="Systèmes & Réseaux"
-                content=""  
-              />
-              <Card
-                backgroundImage={image6}
-                title="Transformation Digitale"
-                content=""  
-              />
-              <Card
-                backgroundImage={image7}
-                title="E-Commerce"
-                content=""  
-              />
-              <Card
-                backgroundImage={image8}
-                title="Expérience Client"
+                title="Stratégie"
                 content=""  
               />
 
@@ -103,7 +79,7 @@ useEffect(() => {
         </section>
 
         <section className="digits">
-          <h2>Chiffres Clés 2025</h2>
+          <h2>Chiffres Clés 2025-2026</h2>
 
           <div className="digit">
             <div className="digit-content">
@@ -112,7 +88,7 @@ useEffect(() => {
             </div>
 
             <div className="digit-content">
-              <h1>5+</h1>
+              <h1>20+</h1>
               <h4>Organisations Formées</h4>
             </div>
 

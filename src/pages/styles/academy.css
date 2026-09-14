@@ -1,12 +1,13 @@
-.academy {
-    ::selection {
+/* Selection style */
+.academy ::selection {
     background-color: #ffe600; 
     color: #000000;
-}
 }
 
 .activities {
     height: auto;
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
 
 .program {
@@ -46,11 +47,6 @@
     font-weight: bold;
 }
 
-/* .program-content-image img {
-    width: 500px;
-    margin-right: 80px;
-}  */
-
 .courses {
     height: auto;
     width: 100%;
@@ -83,7 +79,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -101,10 +97,14 @@
     color: white;
 }
 
-@media (max-width: 600px) {
+/* ==========================================================
+   1. MOBILE (Max 767px)
+   ========================================================== */
+@media (max-width: 767px) {
     .program, .cta {
         width: 100%;
-        height: 100vh;
+        height: auto;
+        padding: 40px 20px;
     }
 
     .program-content {
@@ -114,37 +114,92 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 30px 20px;
     }
 
     .program-content-text {
         width: 100%;
-        padding: 40px;
+        padding: 10px 0;
     }
 
     .program-content-text p {
         font-size: 16px;
     }
 
-    .program-content-image img {
-        margin-right: 0;
-        width: 300px;
-        margin-top: 40px;
+    .program-content button,
+    .program-content-text button {
+        width: 100%;
+        margin-top: 15px;
     }
 
-    .program-content, .cta-content {
+    .cta-content {
         width: 100%;
         padding: 20px 0;
     }
-    .program-content-text button {
-        width: 100%;
+
+    .courses-text h1 {
+        font-size: 32px;
     }
 
     .courses-card {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
 
     .courses-card > div {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ==========================================================
+   2. TABLETTES (768px à 1024px)
+   ========================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .program {
+        padding: 30px;
+    }
+
+    .program-content {
+        padding: 30px;
+    }
+
+    .program-content-text {
+        width: 65%;
+    }
+
+    .courses-text h1 {
+        font-size: 36px;
+    }
+
+    .courses-card {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .cta-content {
+        width: 80%;
+    }
+}
+
+/* ==========================================================
+   3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
+   ========================================================== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .program-content-text {
+        width: 70%;
+    }
+
+    .courses-text h1 {
+        font-size: 38px;
+    }
+
+    .courses-card {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .cta-content {
+        width: 70%;
     }
 }

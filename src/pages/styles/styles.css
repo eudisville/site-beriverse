@@ -54,7 +54,7 @@ section p {
     color: rgb(0, 0, 0);
 }
 
-.activity-text h1{
+.activity-text h1 {
     font-size: 36px;
     font-weight: 500;
     font-family: 'merriweather', sans-serif;
@@ -62,15 +62,14 @@ section p {
 
 .activity-text p {
     width: 100%;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .activity-items {
     width: 100%;
-    /* margin-top: 20px; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-wrap: wrap;
     text-align: left;
 }
@@ -93,19 +92,13 @@ section p {
     background-position: center;
 }
 
-.business-content {
-    width: 60%;
-    color: white;
-    text-align: left;
-}
-
 .cards {
     color: rgb(0, 0, 0);
     height: auto;
     background-color: rgb(255, 255, 255);
 }
 
-.card-text h1{
+.card-text h1 {
     font-size: 48px;
     margin: 40px 0 40px 0; 
     text-align: left;
@@ -114,10 +107,7 @@ section p {
 
 .card-items {
     width: 100%;
-    /* margin-top: 20px; */
-    /* display: flex; */
     align-items: center;
-    /* justify-content: center; */
     text-align: left;
     flex-wrap: wrap;
     margin-bottom: 60px;
@@ -129,7 +119,7 @@ section p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
 }
 
 .manage {
@@ -171,10 +161,12 @@ section p {
     width: 40%;
     color: black;
     padding: 40px;
+    text-align: left;
 }
 
 .business-content p {
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .business-content button {
@@ -194,7 +186,7 @@ section p {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets//trust.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/trust.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -255,10 +247,15 @@ section p {
     margin-right: 80px;
 }
 
+/* ==========================================================
+   1. MOBILE (Max 767px)
+   ========================================================== */
 @media (max-width: 767px) {
     section {
         height: auto;
+        padding: 30px 20px;
     }
+
     section h1 {
         font-size: 36px;
     }
@@ -275,6 +272,7 @@ section p {
 
     .about-img {
         background-position: center;
+        height: 50vh;
     }
 
     .activities {
@@ -292,6 +290,7 @@ section p {
 
     .business-content {
         width: 100%;
+        padding: 25px;
     }
 
     .cards {
@@ -311,10 +310,10 @@ section p {
         height: auto;
     }
 
-    .manage-text h1{
+    .manage-text h1 {
         margin-bottom: 25px;
         text-align: left;
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .manage-items {
@@ -326,7 +325,8 @@ section p {
     }
 
     .case {
-        height: 100vh;
+        height: auto;
+        padding: 40px 20px;
     }
 
     .case-content {
@@ -339,18 +339,130 @@ section p {
     }
 
     .case-content-text h1 {
-        font-size: 48px;
+        font-size: 36px;
+    }
+
+    .case-content-image img {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 0;
+    }
+
+    .portfolio {
+        height: auto;
+        padding: 40px 20px;
     }
 
     .portfolio-content {
         flex-direction: column;
         text-align: left;
-        height: 100vh;
+        height: auto;
         justify-content: center;
     }
 
     .portfolio-content-text {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .portfolio-content-image img {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 0;
+    }
+}
+
+/* ==========================================================
+   2. TABLETTES (768px à 1024px - Ex: iPad Air / Pro portrait)
+   ========================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    section {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 30px;
+    }
+
+    section h1 {
+        font-size: 44px;
+    }
+
+    section p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .about-img {
+        height: 50vh;
+        background-position: center;
+    }
+
+    .business-content {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .manage {
+        height: auto;
+    }
+
+    .case, .portfolio {
+        height: auto;
+        padding: 60px 40px;
+    }
+
+    .case-content-text, .portfolio-content-text {
+        width: 55%;
+    }
+
+    .case-content-image img, .portfolio-content-image img {
+        width: 280px;
+        margin-right: 0;
+    }
+}
+
+/* ==========================================================
+   3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
+   ========================================================== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    section {
+        /* Évite que le contenu dépasse si la hauteur de l'écran est réduite */
+        height: auto;
+        min-height: 100vh; 
+        padding: 40px 50px;
+    }
+
+    section h1 {
+        font-size: 48px;
+    }
+
+    section p {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .about-img {
+        height: 50vh;
+    }
+
+    .business-content {
+        width: 45%;
+    }
+
+    .manage {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .slogan {
+        font-size: 27px;
+    }
+
+    .case-content-text, .portfolio-content-text {
+        width: 55%;
+    }
+
+    .case-content-image img, .portfolio-content-image img {
+        width: 340px;
+        margin-right: 30px;
     }
 }

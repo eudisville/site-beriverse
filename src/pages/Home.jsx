@@ -66,9 +66,9 @@ function Home() {
           </div>
         </section> */}
 
-        <section className="slogan">
+        <div className="slogan">
           <h1>Welcome to <span>Beriverse </span></h1>
-        </section>
+        </div>
 
         <section className='business'>
           <div className="business-content">

@@ -1,61 +1,100 @@
 .card {
-  position: relative;
-  width: 300px;
-  height: 390px;
-  overflow: hidden;
-  box-shadow: none; /* Supprime toute ombre interne */
-  cursor: pointer;
-  background: transparent; /* Evite les effets d'ombre internes liés au fond */
-  display: flex;
-  justify-content: start;
+    position: relative;
+    width: 300px;
+    height: 390px;
+    overflow: hidden;
+    box-shadow: none;
+    cursor: pointer;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .card-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-  box-shadow: none;
-  background-color: transparent;
-  transition: transform 0.6s ease; /* Smooth animation */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    box-shadow: none;
+    background-color: transparent;
+    transition: transform 0.6s ease;
 }
 
 .card-content {
-  position: relative;
-  z-index: 2;
-  padding: 20px;
-  color: white;
-  box-shadow: none;
-  display: flex;
-  align-items: flex-end;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: white;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
 }
 
 .card-content h2 {
-  margin: 0;
-  font-size: 18px;
+    margin: 0;
+    font-size: 18px;
 }
 
 .card-content p {
-  margin: 10px 0 0;
-  font-size: 14px;
-  width: 100%;
-}
-
-.card:hover .card-background {
-  transform: scale(1.1); /* Zoom */
-}
-
-.card:hover .card-content p {
-  opacity: 1;
-}
-
-@media screen and (max-width: 600px) {
-  .card {
-    height: 350px;
+    margin: 10px 0 0;
+    font-size: 14px;
     width: 100%;
-  }
+}
+
+/* Effets Desktop (Survol) */
+@media (hover: hover) and (pointer: fine) {
+    .card:hover .card-background {
+        transform: scale(1.1);
+    }
+
+    .card:hover .card-content p {
+        opacity: 1;
+    }
+}
+
+/* ==========================================================
+   1. MOBILE (Max 767px)
+   ========================================================== */
+@media screen and (max-width: 767px) {
+    .card {
+        height: 350px;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .card-content p {
+        opacity: 1; /* Toujours visible sur écran tactile */
+    }
+}
+
+/* ==========================================================
+   2. TABLETTES (768px à 1024px)
+   ========================================================== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 280px;
+        height: 360px;
+    }
+
+    .card-content p {
+        opacity: 1; /* Toujours visible sur écran tactile */
+    }
+}
+
+/* ==========================================================
+   3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
+   ========================================================== */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .card {
+        width: 300px;
+        height: 390px;
+    }
 }

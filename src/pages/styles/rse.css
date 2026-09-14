@@ -52,7 +52,7 @@
     margin-bottom: 40px;
 }
 
-.digit{
+.digit {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,13 +68,13 @@
     width: 70%;
 }
 
-.speak h3{
+.speak h3 {
     font-size: 24px;
     line-height: normal;
     margin: 10px 0;
 }
 
-.speak h2{
+.speak h2 {
     font-size: 20px;
     margin: 5px 0;
     font-weight: bold;
@@ -87,9 +87,13 @@
     color: gray;
 }
 
-@media (max-width: 768px) {
+/* ==========================================================
+   1. MOBILE (Max 767px)
+   ========================================================== */
+@media (max-width: 767px) {
     .actions {
         height: auto;
+        padding: 40px 20px;
     }
 
     .actions-content {
@@ -103,27 +107,97 @@
     }
 
     .actions-content-text h1 {
-        font-size: 42px;
-        line-height: 1;
+        font-size: 36px;
+        line-height: 1.1;
     }
 
     .actions-content-image img {
         width: 100%;
+        height: auto;
+        max-height: 400px;
         margin-left: 0;
     }
 
     .digits {
         height: auto;
-        padding: 70px 0;
+        padding: 50px 20px;
     }
 
     .digit {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
 
     .speak {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 40px;
+    }
+}
+
+/* ==========================================================
+   2. TABLETTES (768px à 1024px)
+   ========================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .actions {
+        height: auto;
+        min-height: 100vh;
+        padding: 50px 30px;
+    }
+
+    .actions-content-text {
+        width: 55%;
+    }
+
+    .actions-content-text h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .actions-content-image img {
+        width: 320px;
+        height: 420px;
+        margin-left: 20px;
+    }
+
+    .digits {
+        height: auto;
+        padding: 60px 30px;
+    }
+
+    .speak {
+        width: 90%;
+        margin-top: 60px;
+    }
+}
+
+/* ==========================================================
+   3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
+   ========================================================== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .actions {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .actions-content-text h1 {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    .actions-content-image img {
+        width: 400px;
+        height: 500px;
+        margin-left: 40px; /* Réduction de la marge de 100px à 40px pour éviter les débordements */
+    }
+
+    .digits {
+        height: auto;
+        min-height: 40vh;
+        padding: 40px 0;
+    }
+
+    .speak {
+        width: 80%;
+        margin-top: 80px;
     }
 }
