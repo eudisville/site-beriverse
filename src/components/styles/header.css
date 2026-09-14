@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 * {
     padding: 0;
@@ -44,9 +45,10 @@ header {
 }
 
 .text h1{
-    font-size: 72px;
+    font-size: 76px;
     line-height: 75px;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: 'merriweather', sans-serif;
 }
 
 .text p {

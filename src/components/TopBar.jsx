@@ -3,9 +3,9 @@ import './styles/topbar.css'
 
 function TopBar({
 
-  bgColor = "#fff",
-  fontColor = "rgb(22, 6, 100)",
-  borBottom = "1px solid #ccc"
+  bgColor = "#ffffff",
+  fontColor = "rgb(0, 0, 0)",
+  borBottom = "1px solid #e8e7e7"
 
 }) {
   return (
@@ -13,7 +13,7 @@ function TopBar({
         <div className="top-left" style={{ color: fontColor }} >
             Beriverse Incorporation
         </div>
-      <div style={{ color: fontColor }} className="top-right">Global</div>
+      <div style={{ color: fontColor }} className="top-right">CI | FR</div>
     </div>
   )
 }

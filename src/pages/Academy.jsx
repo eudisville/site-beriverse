@@ -22,18 +22,18 @@ import PM from "./assets/PM.jpg"
 
 function Academy() {
   useEffect(() => {
-    document.title = "Beriverse : Formez-vous aux compétences de demain";
+    document.title = "Beriverse : Programmes";
   }, []);
 
   return (
     <div className='academy'>
       {/* <TopBar /> */}
       <Header
-        title="Construisez votre avenir grâce au digitales"
-        content="Engagés envers le grand public, nous offrons des formations de qualités."
+        title="Nos Programmes"
+        content="Technologie, Management, Finance, et bien d'autres programmes."
         image={AcademyImage}
         // logo={AcademyLogo}
-        button="En savoir plus"
+        button=""
         link="https://wa.me/2250718617053"
         links={[
           { label: "Accueil", to: "/" },

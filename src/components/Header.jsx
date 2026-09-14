@@ -19,18 +19,18 @@ function Header({
   logoWidth = "50px",
   navHeight = "80px",
   linkFontSize = "16px",
-  linkColor = "rgb(22, 6, 100)",
+  linkColor = "rgb(0, 0, 0)",
   // links
   links = [
     { label: "Notre Groupe", to: "/" },
+    { label: "Programmes", to: "/ic" },
     { label: "Entreprises", to: "/entreprises" },
-    { label: "Particuliers", to: "/ic" },
-    { label: "Notre Impact", to: "/impact" },
+    { label: "Exective Education", to: "/impact" },
     { label: "Jobs", to: "/careers" },
   ], 
   // Personnalisation header
   headerHeight = "100vh",
-  overlayColor = "rgba(0, 0, 0, 0.3)",
+  overlayColor = "rgba(0, 0, 0, 0.8)",
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false); // Renommé pour éviter toute confusion

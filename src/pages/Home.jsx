@@ -6,12 +6,12 @@ import './styles/styles.css'
 import './styles/rse.css'
 // import img1 from '../components/assets/des.jpg'
 // import img2 from '../components/assets/Bac.jpg'
-// import img3 from '../components/assets/vid.jpg'
-import back from './assets/top.png'
-import img4 from './assets/onces.jpg'
-import img5 from './assets/twos.jpg'
-import img6 from './assets/threee.jpg'
-import img7 from './assets/threee.jpg'
+import img3 from './assets/twos.jpg'
+import back from './assets/team.jpg'
+import img4 from './assets/cm.jpg'
+import img5 from './assets/ran.jpg'
+import img6 from './assets/ia.jpg'
+import img7 from './assets/ba-header.jpg'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
     <div>
       <TopBar />
       <Header
-        title="A vos côtés, pour demain" 
+        title="Welcome to Beriverse" 
         content="Bienvenue sur le site officiel de Beriverse Incorporation" 
         image={back} 
         headerHeight="95vh"
@@ -31,11 +31,9 @@ function Home() {
             <h1><span>A Propos</span> de Beriverse</h1>
         
             <p>
-              Chez Beriverse, nous ne nous contentons pas de créer des solutions.
-              Nous connectons la technologie, le savoir et la création pour donner vie aux idées et faire émerger de nouvelles possibilités.
-              Convaincus que l’innovation, l’éducation et les contenus ont un rôle clé dans le développement des individus et des organisations, 
-              nous agissons chaque jour pour concevoir des solutions utiles, transmettre des compétences et produire des expériences à fort impact.
-              <span style={{ fontWeight: 'bold' }}> Notre mission, Rendre la technologie, l'éducation et la créativité accessibles à tous</span>.
+              Chez Beriverse, nous croyons que la performance des organisations repose avant tout sur la qualité des compétences, des décisions et des talents qui les composent.
+              Nous sommes une institution dédiée au développement des compétences professionnelles, à la formation des dirigeants, managers et collaborateurs, ainsi qu’à l’accompagnement des organisations face aux transformations de leur environnement.
+              À travers des programmes conçus autour des enjeux réels des entreprises, nous développons des compétences en management, leadership, technologie, intelligence artificielle, finance, gestion de projet, digital et nouvelles pratiques professionnelles.
             </p>
           
         <div className="about-img"></div>
@@ -74,9 +72,9 @@ function Home() {
 
         <section className='business'>
           <div className="business-content">
-            <h1>Nos Expertises</h1>
+            <h1>Programmes</h1>
             <p> 
-              Beriverse mobilise son expertise pour créer des solutions utiles, transmettre des savoirs et produire des contenus à impact, au service du développement et de la transformation.
+              Nos programmes sont conçus pour aider les entreprises à développer les compétences de leurs collaborateurs, à améliorer leur performance et à atteindre leurs objectifs stratégiques.
             </p>
             <a href="/brochure.pdf" download>
               <button>Télécharger la brochure</button>
@@ -87,7 +85,7 @@ function Home() {
         <section className='actions'>
             <div className="actions-content">
               <div className="actions-content-image">
-                <img src={img7} alt="" />
+                <img src={img3} alt="" />
               </div>
               
               <div className="actions-content-text">
@@ -116,17 +114,22 @@ function Home() {
             <div className='card-card'>
               <Card 
                 backgroundImage={img4} 
-                title="Beriverse adopte une nouvelle signature"
+                title="Le véritable enjeu de l'IA n'est pas technologique. Il est humain."
                 content=""
               />
               <Card 
                 backgroundImage={img5} 
-                title="Digital Day l'évènement 100% Tech" 
+                title="Pourquoi les entreprises doivent repenser leur stratégie de formation" 
                 content="" 
               />
               <Card 
                 backgroundImage={img6} 
-                title="Notre engagement dans le développement durable" 
+                title="L'IA va-t-elle remplacer les managers ?" 
+                content="" 
+              />
+              <Card 
+                backgroundImage={img7} 
+                title="Les compétences qui feront la différence dans les entreprises africaines en 2030" 
                 content="" 
               />
             </div>
