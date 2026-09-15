@@ -7,6 +7,9 @@ import Activity from '../components/Activity'
 import image1 from "./assets/imz3.jpg"
 import image2 from "./assets/strat.jpg"
 import image3 from "./assets/supply.jpg"
+import image4 from "./assets/mas.jpg"
+import image5 from "./assets/ter.jpg"
+import image6 from "./assets/class.jpg"
 import './styles/academy.css'
 import { Link } from 'react-router-dom'
 // import TopBar from '../components/TopBar'
@@ -94,6 +97,96 @@ function Academy() {
           </div>
         </section > */}
 
+
+        <div className="prog">
+
+          {/* <h1>Programmes</h1>
+          <p>Découvrez nos programmes de formation conçus pour répondre aux besoins spécifiques des professionnels.</p> */}
+          
+          <div className="prog-items">
+
+            <div className="prog-img">
+              <img src={image4} alt="" />
+            </div>
+
+            <div className="prog-text">
+              <h1>Executive Education</h1>
+              <p>
+                Pour dirigeants, cadres et managers. <br />
+                Des programmes conçus pour les professionnels qui occupent, ou se préparent à occuper, 
+                des responsabilités stratégiques au sein des organisations. Nos programmes 
+                Executive Education abordent les enjeux qui transforment aujourd’hui le monde du 
+                travail : leadership, stratégie, intelligence artificielle, transformation digitale, 
+                management et performance. <br /><br />
+            
+                À travers des formats intensifs et orientés vers la pratique, nous créons des expériences 
+                d’apprentissage permettant aux dirigeants et managers de prendre de meilleures décisions, 
+                de développer leur leadership et d’accompagner efficacement les transformations de leurs 
+                organisations.
+              </p>
+
+              <button style={{ background: "black", color: "white" }}>Voir la brochure</button>
+            </div>
+
+          </div>
+        </div>
+        <div className="prog">
+
+          {/* <h1>Programmes</h1>
+          <p>Découvrez nos programmes de formation conçus pour répondre aux besoins spécifiques des professionnels.</p> */}
+          
+          <div className="prog-items">
+
+            <div className="prog-text">
+              <h1>Corporate Learning</h1>
+              <p>
+                Pour les entreprises qui souhaitent développer leurs équipes et accompagner leurs transformations. <br />
+                <br />
+                Les organisations les plus performantes investissent dans les compétences de leurs collaborateurs. 
+                Beriverse accompagne les entreprises dans la conception et le déploiement de dispositifs de 
+                formation adaptés à leurs enjeux métiers, stratégiques et organisationnels.
+              </p>
+
+              <button style={{ background: "black", color: "white" }}>Voir la brochure</button>
+            </div>
+
+            <div className="prog-img">
+              <img src={image5} alt="" />
+            </div>
+
+          </div>
+        </div>
+        <div className="prog">
+
+          {/* <h1>Programmes</h1>
+          <p>Découvrez nos programmes de formation conçus pour répondre aux besoins spécifiques des professionnels.</p> */}
+          
+          <div className="prog-items">
+
+            <div className="prog-img">
+              <img src={image6} alt="" />
+            </div>
+
+            <div className="prog-text">
+              <h1>Professional</h1>
+              <p>
+                Pour les professionnels qui souhaitent développer leurs compétences. <br />
+                <br />
+                Le monde professionnel évolue rapidement. De nouvelles technologies, de nouvelles méthodes de 
+                travail et de nouvelles exigences transforment les métiers et les compétences attendues.
+                <br /> <br />
+                Nos programmes de Professional Development permettent aux professionnels de renforcer leurs 
+                compétences, d’acquérir de nouvelles expertises et de rester compétitifs dans un environnement 
+                en constante évolution. De la technologie au management, en passant par la data, l’intelligence 
+                artificielle, la finance et les compétences professionnelles, chaque programme est conçu pour 
+                être directement applicable aux réalités du travail.
+              </p>
+
+              <button style={{ background: "black", color: "white" }}>Voir la brochure</button>
+            </div>
+
+          </div>
+        </div>
         <section className='cta'>
             <div className="cta-content">
                 <h1>Devenez un Game Changer</h1>

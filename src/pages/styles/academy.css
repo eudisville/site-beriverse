@@ -10,6 +10,51 @@
     color: white;
 }
 
+.prog {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.prog-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prog-img {
+    width: 45%;
+    display: flex;
+}
+
+.prog-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.prog-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.prog-text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.prog-text p {
+    font-size: 18px;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
 .program {
     width: 100%;
     display: flex;
@@ -79,7 +124,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -101,6 +145,26 @@
    1. MOBILE (Max 767px)
    ========================================================== */
 @media (max-width: 767px) {
+    .prog {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .prog-items {
+        flex-direction: column-reverse; /* Place le texte au-dessus ou en-dessous selon besoin */
+        gap: 20px;
+    }
+
+    .prog-img,
+    .prog-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .prog-img img {
+        height: 300px;
+    }
+
     .program, .cta {
         width: 100%;
         height: auto;
@@ -156,6 +220,25 @@
    2. TABLETTES (768px à 1024px)
    ========================================================== */
 @media (min-width: 768px) and (max-width: 1024px) {
+    .prog {
+        height: auto;
+        min-height: auto;
+        padding: 40px 30px;
+    }
+
+    .prog-img {
+        width: 48%;
+    }
+
+    .prog-img img {
+        height: 400px;
+    }
+
+    .prog-text {
+        width: 48%;
+        padding: 10px;
+    }
+
     .program {
         padding: 30px;
     }
@@ -186,6 +269,16 @@
    3. MACBOOK 13" / PC PORTABLES (1025px à 1440px)
    ========================================================== */
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .prog {
+        height: auto;
+        min-height: 80vh;
+        padding: 40px;
+    }
+
+    .prog-img img {
+        height: 450px;
+    }
+
     .program-content-text {
         width: 70%;
     }

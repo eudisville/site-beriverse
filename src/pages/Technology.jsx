@@ -37,7 +37,7 @@ useEffect(() => {
         content="Nous contribuons activement à la transformation digitale et au développement des compétences des entreprises pour une meilleure performance."
 
         image={img1}
-        button="Parcourir nos offres"
+        button=""
         headerHeight="95vh"
         overlayColor="rgba(0, 0, 0, 0.6)"
         links={[
