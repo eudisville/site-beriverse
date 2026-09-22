@@ -26,6 +26,7 @@ function Header({
     { label: "Programmes", to: "/ic" },
     { label: "Entreprises", to: "/entreprises" },
     { label: "Exective Education", to: "/impact" },
+    { label: "Consulting", to: "/consulting" },
     { label: "Jobs", to: "/careers" },
   ], 
   // Personnalisation header
